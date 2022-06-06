@@ -1,0 +1,8 @@
+---
+
+- hosts: localhost
+  tasks:
+  - name: Creating an empty file
+    file:
+      path: "/home/jester/ansible_test/1.txt"
+      state: touch
